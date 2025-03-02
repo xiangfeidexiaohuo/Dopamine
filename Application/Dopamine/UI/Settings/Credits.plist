@@ -56,7 +56,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Developers</string>
+			<string>开发者</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -83,7 +83,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>UI and Design</string>
+			<string>界面和设计</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -116,7 +116,7 @@
 			<key>cell</key>
 			<string>PSGroupCell</string>
 			<key>label</key>
-			<string>Credits</string>
+			<string>致谢</string>
 		</dict>
 		<dict>
 			<key>cell</key>
@@ -269,6 +269,18 @@
 					<key>link</key>
 					<string>https://github.com/kirb</string>
 				</dict>
+				<dict>				
+					<key>name</key>
+					<string>zqbb</string>
+					<key>link</key>
+					<string>https://github.com/w2599/Dopamine</string>
+				</dict>
+				<dict>
+					<key>name</key>
+					<string>DaoDao</string>
+					<key>link</key>
+					<string>https://github.com/xiangfeidexiaohuo/Dopamine</string>
+				</dict>				
 			</array>
 		</dict>
 		<dict>

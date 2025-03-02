@@ -81,12 +81,12 @@ jobs:
 
       - name: Pre code
         run: |
-          sed -i '' "s/AAAA/v${{ env.newVERSION }}.${{ env.msT }}/g" ./Application/Dopamine/UI/DOMainViewController.m
-          sed -i '' "s/AAAB/不要为了升级而放弃越狱的乐趣~/g" ./Application/Dopamine/UI/DOMainViewController.m
-          sed -i '' "s/AAAB/不要为了升级而放弃越狱的乐趣~/g" ./Application/Dopamine/UI/DOMainViewController.m
-          sed -i '' "s/opa334/w2599/g" ./Application/Dopamine/UI/Settings/DOCreditsViewController.m
-          sed -i '' "s/opa334/w2599/g" ./Application/Dopamine/UI/Update/DOUpdateViewController.m
-          sed -i '' "s/opa334/w2599/g" ./Application/Dopamine/UI/DOUIManager.m
+          sed -i '' "s/AAAA/刀刀 v${{ env.newVERSION }}.${{ env.msT }}/g" ./Application/Dopamine/UI/DOMainViewController.m
+          sed -i '' "s/AAAB/越狱快乐多~/g" ./Application/Dopamine/UI/DOMainViewController.m
+          sed -i '' "s/AAAB/越狱快乐多~/g" ./Application/Dopamine/UI/DOMainViewController.m
+          sed -i '' "s/opa334/xiangfeidexiaohuo/g" ./Application/Dopamine/UI/Settings/DOCreditsViewController.m
+          sed -i '' "s/opa334/xiangfeidexiaohuo/g" ./Application/Dopamine/UI/Update/DOUpdateViewController.m
+          sed -i '' "s/opa334/xiangfeidexiaohuo/g" ./Application/Dopamine/UI/DOUIManager.m
           
       - name: Pre body
         run: |
@@ -117,7 +117,7 @@ jobs:
           export THEOS="${BASEDIR}/theos"
           gmake -j$(sysctl -n hw.physicalcpu) NIGHTLY=1
           # cp Dopamine/Dopamine.tipa Dopamine.tipa
-          mv Application/Dopamine.tipa Dopamine_blacklist_${{ env.newVERSION }}_${{ env.msT }}_${{ env.SHASH }}.tipa
+          mv Application/Dopamine.tipa Dopamine_${{ env.newVERSION }}_${{ env.msT }}_刀刀.tipa
 
 
 
